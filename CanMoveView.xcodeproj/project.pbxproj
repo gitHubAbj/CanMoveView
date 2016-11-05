@@ -15,6 +15,7 @@
 		046160EC1DCA0FED00562D89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 046160EA1DCA0FED00562D89 /* LaunchScreen.storyboard */; };
 		046160F71DCA0FEE00562D89 /* CanMoveViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046160F61DCA0FEE00562D89 /* CanMoveViewTests.m */; };
 		046161021DCA0FEE00562D89 /* CanMoveViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 046161011DCA0FEE00562D89 /* CanMoveViewUITests.m */; };
+		046161141DCA138800562D89 /* CanMoveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 046161131DCA138800562D89 /* CanMoveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		046160FD1DCA0FEE00562D89 /* CanMoveViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanMoveViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		046161011DCA0FEE00562D89 /* CanMoveViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanMoveViewUITests.m; sourceTree = "<group>"; };
 		046161031DCA0FEE00562D89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		046161121DCA138800562D89 /* CanMoveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanMoveView.h; sourceTree = "<group>"; };
+		046161131DCA138800562D89 /* CanMoveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanMoveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				046160EA1DCA0FED00562D89 /* LaunchScreen.storyboard */,
 				046160ED1DCA0FED00562D89 /* Info.plist */,
 				046160DC1DCA0FED00562D89 /* Supporting Files */,
+				046161121DCA138800562D89 /* CanMoveView.h */,
+				046161131DCA138800562D89 /* CanMoveView.m */,
 			);
 			path = CanMoveView;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				046161141DCA138800562D89 /* CanMoveView.m in Sources */,
 				046160E41DCA0FED00562D89 /* ViewController.m in Sources */,
 				046160E11DCA0FED00562D89 /* AppDelegate.m in Sources */,
 				046160DE1DCA0FED00562D89 /* main.m in Sources */,
